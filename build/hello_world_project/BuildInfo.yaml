@@ -1,0 +1,42 @@
+---
+compiled_package_info:
+  package_name: hello_world_project
+  address_alias_instantiation:
+    hello_world_project: 000000000000000000000000e7ddea46e6bd763c1610f0544f5cf9dc8c623b5c
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+  source_digest: 30145513F770656E59790590E88BF4CDC9342BE8DFDC6DEA936023E7833F3499
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    override_std: ~
+    generate_docs: false
+    generate_abis: false
+    generate_move_model: true
+    full_model_generation: false
+    install_dir: "."
+    force_recompilation: false
+    additional_named_addresses: {}
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    compiler_config:
+      bytecode_version: ~
+      known_attributes:
+        - bytecode_instruction
+        - deprecated
+        - event
+        - expected_failure
+        - "lint::skip"
+        - module_lock
+        - native_interface
+        - persistent
+        - test
+        - test_only
+        - verify_only
+        - view
+      skip_attribute_checks: false
+      compiler_version: V2_0
+      language_version: V2_0
+      experiments: []
+dependencies:
+  - MoveStdlib
+bytecode_deps: []

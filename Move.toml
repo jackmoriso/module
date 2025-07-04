@@ -1,0 +1,14 @@
+[package]
+name = "hello_world_project"
+version = "1.0.0"
+
+[addresses]
+hello_world_project = "0xe7ddea46e6bd763c1610f0544f5cf9dc8c623b5c"
+std = "0x1"
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
+
+[dev-addresses]
+
+[dev-dependencies]
