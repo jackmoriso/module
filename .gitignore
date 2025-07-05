@@ -1,5 +1,4 @@
 # Build artifacts
-*.mv
 
 # IDE files
 .vscode/
